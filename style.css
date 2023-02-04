@@ -1,0 +1,478 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 105vh;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.logo img {
+    width: 226px;
+    height: 22vh;
+    margin-left: 43%;
+    
+}
+
+#first-text {
+    margin-left: 120px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left-side {
+    width: 80%;
+    border: 1px solid #dddada;
+    border-radius: 40px;
+    background-color: #dddada;
+    margin-left: 0px;
+    margin-top: 10px;
+    height: 60vh;
+}
+
+.right-side {
+    width: 100%;
+    margin-right: 12px;
+}
+.right-side embed {
+    margin-left: 73px;
+    margin-top: 58px;
+    border-radius: 40px;
+    width: 600px;
+    height: 58vh;
+}
+
+.name-ph {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 40px;
+    margin-right: 125px;
+}
+
+.name-ph {
+    margin-top: 20px;
+    width: 378px;
+    height: 6vh;
+    border-radius: 9px 9px 9px;
+    border-color: #dddada00;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 30px;
+}
+.name-ph1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 40px;
+    margin-right: 125px;
+}
+
+.name-ph1 {
+    margin-top: 20px;
+    width: 378px;
+    height: 6vh;
+    border-radius: 9px 9px 9px;
+    border-color: #dddada00;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+.cheackbox {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-top: 20px;
+    margin-left: 30px
+}
+
+.cheackbox label {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.submit-btn {
+    margin-top: 8px;
+    margin-left: 90px;
+}
+
+.submit-btn {
+    width: 230px;
+    height: 48px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    border-color: #ffffff00;
+}
+
+.submit-btn:hover {
+    background-color: #212529;
+}
+
+@media only screen and (width: 1440px) {
+    #first-text {
+        margin-left: 180px;
+    }
+
+    .right-side embed {
+        margin-left: 70px;
+        width: 610px;
+    }
+
+    .left-side {
+        height: 400px;
+        width: 70%;
+        margin-left: 132px;
+    }
+
+    .name-ph {
+        width: 445px;
+    }
+    .name-ph1 {
+        width: 445px;
+    }
+
+    .cheackbox label {
+        font-size: 22px;
+    }
+
+    .submit-btn {
+        margin-left: 135px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #first-text {
+        margin-left: 100px;
+        font-size: 25px;
+    }
+
+    .right-side embed {
+        margin-left: 35px;
+        width: 465px;
+    }
+
+    .left-side {
+        height: 352px;
+        margin-left: 56px;
+        width: 370px;
+    }
+
+    .name-ph {
+        width: 290px;
+    }
+    .name-ph1 {
+        width: 290px;
+    }
+
+    .cheackbox label {
+        font-size: 18px;
+    }
+
+    .submit-btn {
+        margin-left: 105px;
+    }
+
+    .submit-btn {
+        width: 140px;
+        height: 31px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .logo img {
+        margin-left: 268px;
+    }
+    
+    #first-text {
+        margin-left: 47px;
+        font-size: 20px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-side embed {
+        margin-left: 127px;
+        width: 468px;
+    }
+
+    .left-side {
+        height: 360px;
+        margin-left: 95px;
+        width: 542px;
+        margin-bottom: 20px;
+    }
+
+    .name-ph {
+        margin-left: 55px;
+        margin-left: 105px;
+    }
+
+    .name-ph {
+        width: 345px;
+    }
+    .name-ph1 {
+        margin-left: 55px;
+        margin-left: 105px;
+    }
+
+    .name-ph1 {
+        width: 345px;
+    }
+
+    .cheackbox label {
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    .submit-btn {
+        margin-left: 170px;
+        margin-bottom: 33px;
+    }
+
+    .submit-btn  {
+        font-size: 21px;
+        width: 153px;
+        height: 36px;
+        padding-top: 0px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logo img {
+        margin-left: 87px;
+    }
+    
+    #first-text {
+        margin-left: 6px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right-side embed {
+        margin-left: 22px;
+        width: 360px;
+    }
+
+    .left-side {
+        height: 360px;
+        margin-left: 30px;
+        width: 333px;
+        margin-bottom: 10px;
+    }
+
+    .name-ph {
+        margin-left: 0px;
+    }
+
+    .name-ph {
+        width: 244px;
+        margin-left: 45px;
+    }
+    .name-ph1 {
+        margin-left: 0px;
+    }
+
+    .name-ph1 {
+        width: 244px;
+        margin-left: 45px;
+    }
+
+    .cheackbox label {
+        font-size: 16px;
+        margin-left: 31px;
+    }
+
+    .submit-btn {
+        margin-left: 66px;
+        margin-bottom: 46px;
+    }
+
+    .submit-btn {
+        font-size: 21px;
+        width: 153px;
+        height: 36px;
+        padding-top: 0px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .logo img {
+        margin-left: 60px;
+    }
+    
+    #first-text {
+        margin-left: 6px;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right-side embed {
+        margin-left: 20px;
+        width: 315px;
+    }
+
+    .left-side {
+        height: 350px;
+        margin-left: 34px;
+        width: 282px;
+    }
+
+    .name-ph {
+        margin-left: px;
+    }
+
+    .name-ph {
+        width: 244px;
+        margin-left: 18px;
+    }
+    .name-ph1 {
+        margin-left: px;
+    }
+
+    .name-ph1 {
+        width: 244px;
+        margin-left: 18px;
+    }
+
+    .cheackbox label {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .submit-btn {
+        margin-left: 50px;
+        margin-bottom: 46px;
+    }
+
+    .submit-btn {
+        font-size: 18px;
+        width: 147px;
+        height: 30px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo img {
+        margin-left: 30px;
+    }
+    
+    #first-text {
+        margin-left: 3px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .right-side embed {
+        margin-left: 24px;
+        width: 262px;
+    }
+
+    .left-side {
+        height: 305px;
+        margin-left: 38px;
+        width: 235px;
+    }
+
+    .name-ph {
+        margin-top: 13px;
+    }
+
+    .name-ph {
+        width: 206px;
+        margin-left: 11px;
+        height: 26px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .name-ph1 {
+        margin-top: 13px;
+    }
+
+    .name-ph1 {
+        width: 206px;
+        margin-left: 11px;
+        height: 26px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .cheackbox label {
+        font-size: 11px;
+        margin-left: -5px;
+    }
+
+    .submit-btn {
+        margin-left: 37px;
+        margin-top: 6px;
+        margin-bottom: 33px;
+    }
+
+    .submit-btn  {
+        font-size: 15px;
+        width: 145px;
+        height: 25px;
+    }
+
+    .submit-btn:hover {
+        background-color: #212529;
+    }
+}
